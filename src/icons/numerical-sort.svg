@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Numerical Sort</title>
+    <g stroke="none" stroke-width="1" fill="" fill-rule="evenodd">
+        <g transform="translate(-1149.000000, -258.000000)" fill="">
+            <g transform="translate(1085.000000, 258.000000)">
+                <g transform="translate(64.000000, 0.000000)">
+                    <path d="M4.8535,10.3965 C4.65825,10.20125 4.34175,10.20125 4.1465,10.3965 L3.25,11.293 L3.25,1.5 C3.25,1.224 3.026,1 2.75,1 C2.474,1 2.25,1.224 2.25,1.5 L2.25,11.293 L1.3535,10.3965 C1.15825,10.20125 0.8415,10.20125 0.6465,10.3965 C0.45125,10.59175 0.45125,10.90825 0.6465,11.1035 L2.3965,12.8535 C2.49425,12.95125 2.622,13 2.75,13 C2.878,13 3.00575,12.95125 3.1035,12.8535 L4.8535,11.1035 C5.04875,10.90825 5.04875,10.59175 4.8535,10.3965 Z" fill-rule="nonzero"></path>
+                    <text font-family="Helvetica" font-size="6" font-weight="normal" line-spacing="7.5">
+                        <tspan x="6" y="6">1</tspan>
+                        <tspan x="6" y="13.5">2</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

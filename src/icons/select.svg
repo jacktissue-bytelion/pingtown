@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="9px" viewBox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Select</title>
+    <g stroke="none" stroke-width="1" fill="" fill-rule="evenodd">
+        <g transform="translate(-83.000000, -13.000000)" fill="">
+            <g transform="translate(83.000000, 13.000000)">
+                <path d="M0,3 L3,0 L6,3 M6,3.5 L0,3.5"></path>
+                <path d="M0,8 L3,5 L6,8 M6,8.5 L0,8.5" transform="translate(3.000000, 7.000000) rotate(180.000000) translate(-3.000000, -7.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

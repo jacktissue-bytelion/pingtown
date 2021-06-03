@@ -1,0 +1,55 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": false,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"airbnb",
+		"eslint:recommended",
+    "plugin:cypress/recommended",
+		"plugin:jsx-a11y/recommended",
+    "plugin:security/recommended"
+	],
+	"plugins": [
+    "cypress",
+		"jsx-a11y",
+		"no-secrets",
+		"react",
+		"react-hooks",
+    "security",
+    "simple-import-sort"
+	],
+	"rules": {
+    "consistent-return": 0,
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": "off",
+    "max-len": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/forbid-prop-types": ["error", { "forbid": ["any"] }],
+    "security/detect-object-injection": "off"
+	},
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@/auth", "./src/auth"],
+          ["@/components", "./src/components"],
+          ["@/contexts", "./src/contexts"],
+          ["@/data", "./src/data"],
+          ["@/hooks", "./src/hooks"],
+          ["@/icons", "./src/icons"],
+          ["@/lib", "./src/lib"]
+        ],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}
